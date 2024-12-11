@@ -1,0 +1,24 @@
+{
+  "name": "pulze-cms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx --env-file=.env --watch  src/app.ts"
+  },
+  "keywords": [],
+  "author": "Bendeguz Kassai",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mongoose": "^5.11.96",
+    "dotenv": "^16.4.7",
+    "express": "^5.0.1",
+    "mongoose": "^8.8.4",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.1"
+  }
+}
